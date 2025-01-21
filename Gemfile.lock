@@ -114,6 +114,7 @@ GEM
     debug (1.10.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
+    dotenv (3.1.7)
     drb (2.2.1)
     erubi (1.13.1)
     et-orbi (1.2.11)
@@ -163,6 +164,8 @@ GEM
     parser (3.3.7.0)
       ast (~> 2.4.1)
       racc
+    prometheus-client (4.2.3)
+      base64
     psych (5.2.3)
       date
       stringio
@@ -263,6 +266,8 @@ PLATFORMS
 DEPENDENCIES
   brakeman
   debug
+  dotenv
+  prometheus-client
   puma (>= 5.0)
   rails!
   rubocop-rails-omakase
