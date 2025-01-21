@@ -1,6 +1,5 @@
-production:
-  periodic_cleanup:
-    class: UpdateFollowerCountJob
-    queue: background
-    args: []
-    schedule: every 1m
+periodic_cleanup:
+  class: UpdateFollowerCountJob
+  queue: background
+  args: []
+  schedule: every 1m

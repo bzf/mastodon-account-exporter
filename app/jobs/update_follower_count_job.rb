@@ -5,7 +5,8 @@ class UpdateFollowerCountJob < ApplicationJob
   FOLLOWERS_COUNT = Prometheus::Client.registry.gauge(
     :followers_count,
     docstring: "Number of followers for the account",
-    labels: [ :username ]
+    labels: [ :username ],
+    store_settings: { aggregation: :most_recent }
   )
 
   def perform
