@@ -3,4 +3,4 @@ production:
     class: UpdateFollowerCountJob
     queue: background
     args: []
-    schedule: every hour
+    schedule: every 1m
