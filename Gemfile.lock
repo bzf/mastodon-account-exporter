@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: eb503d80bf0030d9d66a576214dc21a467a1bc53
+  revision: d804d25f332da07570de84dd271a4db3c20e5571
   branch: main
   specs:
     actioncable (8.1.0.alpha)
@@ -127,7 +127,8 @@ GEM
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     io-console (0.8.0)
-    irb (1.14.3)
+    irb (1.15.1)
+      pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     json (2.9.1)
@@ -164,6 +165,9 @@ GEM
     parser (3.3.7.0)
       ast (~> 2.4.1)
       racc
+    pp (0.6.2)
+      prettyprint
+    prettyprint (0.2.0)
     prometheus-client (4.2.3)
       base64
     psych (5.2.3)
