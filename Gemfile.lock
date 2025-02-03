@@ -164,7 +164,7 @@ GEM
     parser (3.3.7.0)
       ast (~> 2.4.1)
       racc
-    prometheus-client (4.2.3)
+    prometheus-client (4.2.4)
       base64
     psych (5.2.3)
       date
